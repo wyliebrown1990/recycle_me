@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recycle Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Recycle Checker</h1>
+    </header>
+    <form method="POST">
+        Location: <input type="text" name="location" required><br>
+        Material (plastic, metal, glass): <input type="text" name="material" required><br>
+        Item: <input type="text" name="item" required><br>
+        <input type="submit" value="Check">
+    </form>
+</body>
+</html>
