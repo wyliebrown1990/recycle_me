@@ -1,0 +1,2 @@
+CREATE USER wyliebrown1990 WITH PASSWORD 'test123';
+CREATE DATABASE recycle_me OWNER wyliebrown1990;
